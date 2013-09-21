@@ -27,6 +27,7 @@ gem 'hashie'
 gem 'rufus-scheduler'
 gem 'localeapp', :require => false
 gem 'human_attribute'
+gem "heroku-forward"
 
 platforms :jruby do
   gem 'warbler'
