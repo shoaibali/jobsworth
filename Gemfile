@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem "rails", "3.2.13"
 
+ruby '1.9.3', engine: 'jruby', engine_version: '1.7.4'
+
 gem "will_paginate"
 gem 'icalendar'
 gem 'tzinfo'
